@@ -1,2 +1,2 @@
 # bookmark
-allow to use bookmarks in your shell
+allow to use bookmarks in bash shell.
