@@ -7,12 +7,6 @@ then
     mkdir -p $HOME/.config/bookmarks  
     echo "$BOOKMARKS=\"\""  > $HOME/.config/bookmarks/bookmarks.conf && echo "file bookmark.conf created at $(echo $HOME/.config/bookmark)"
     BOOKMARKS=""
-    # case $0 in
-    #     bash)
-    #     ksh)
-    #     zsh)
-    #     fish)
-    # esac
     if [ -e $HOME/.bashrc ]
     then
         echo "source bookmark.sh -L" >> $HOME/.bashrc
